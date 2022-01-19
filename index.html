@@ -19,6 +19,7 @@
         width: 120px;
         height: 120px;
         animation: spin 2s linear infinite;
+           
       }
 
       @keyframes spin {
@@ -32,23 +33,22 @@
 
       #centerDiv {
         margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     </style>
   <link rel="icon" href="/assets/favicon.svg"></head>
   <body style="background-color: black;">
-    <div id="app" style="height: 100%;">
-      <!--		<div id="loadingDiv" style="background-color: black; color: #03FCF5; height: 100%;">-->
-      <!--			Loading...-->
-      <!--		</div>-->
-      <div id="centerDiv"><div class="loader"></div></div>
-    </div>
+    <div id="app" style="height: 100%;"> </div>
+    <div id="centerDiv"><div class="loader"></div></div>
     
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     
-  <script src="/vendors-f70a9b21-bundle.js"></script><script src="/main-f70a9b21-bundle.js"></script></body>
+  <script src="/vendors-88200692-bundle.js"></script><script src="/main-88200692-bundle.js"></script></body>
 </html>
